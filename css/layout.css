@@ -1,6 +1,12 @@
 body{
     scroll-behavior: smooth;
 }
+.img{
+    background-image: url(../img/bild.jpg);
+    align-content: center;
+    width: 1920px;
+    height: 500px;
+}
 card-title{
-    
+
 }

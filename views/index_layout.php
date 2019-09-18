@@ -10,21 +10,24 @@
     </head> 
     <body>
        
+        <div class="img"></div>
             <div class="container px 5">  
                 <?php foreach ($result as $row): ?>  
                 <div class="card" style= width:50rem;>
                         <div class="card-body">
                             
                             <h5 class="card-title">
+                                <img class="rounded_circle" alt="" style= height:40px; width="40px;" ></img>
                                 <?= $row['name'] ?>
                             </h5>
                             <h6 class="card-subtitle mb-2 text-muted">
                                 <?= $row['created_at']?>
                             </h6>
+                            
                             <p class="card-text"> 
                                 <?= $row['body']?>
                             </p>
-                            <a href="#" class="card-link">Card link</a>
+                            <a href="tweet.php?id= <?= $row['id']?>" class="card-link">Show Thread</a>
                         
                         </div>
                 </div>
