@@ -2,8 +2,8 @@ body{
     scroll-behavior: smooth;
 }
 .img{
-    background-image: url(../img/bild.jpg);
-    align-content: center;
+    background-image: url(../img/bild3.jpg);
+    position: unset;
     width: 1920px;
     height: 500px;
 }
