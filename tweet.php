@@ -20,7 +20,7 @@ $sth = $dbh->prepare('SELECT tweet.*, users.name FROM tweet
             ON tweet.user_id = users.id
             WHERE tweet.id =' . $tweetId);
 $sth->execute();
-$result = $sth->fetch(PDO::FETCH_ASSOC);
+$row = $sth->fetch(PDO::FETCH_ASSOC);
 
 include "views/tweet_layout.php";
 
