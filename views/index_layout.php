@@ -51,4 +51,4 @@
                     <?php include 'card.php' ?>    
                 <?php endforeach ?>
             </div>
-        <?php include 'fotter.php' ?>
+        <?php include 'foot.php' ?>
